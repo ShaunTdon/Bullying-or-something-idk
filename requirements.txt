@@ -4,6 +4,5 @@ plotly
 transformers
 torch
 torchvision
-scikit-fuzzy
 numpy
 scipy
