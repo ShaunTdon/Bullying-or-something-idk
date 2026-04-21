@@ -8,7 +8,7 @@ import time
 import random
 import torch # Needed now that fuzzy_engine uses torch
 
-st.set_page_config(page_title="CyberGuard AI - ANFIS Monitor", layout="wide")
+st.set_page_config(page_title="CyberGuard - ANFIS Monitor", layout="wide")
 
 # --- 1. DATA LOADING (Replacing Mock Comments) ---
 @st.cache_data
@@ -52,7 +52,7 @@ st.sidebar.info("""
 - **Dataset:** YouTube Toxic 1000
 """)
 
-st.title("🛡️ CyberGuard AI: ANFIS Risk Assessment")
+st.title("🛡️ CyberGuard: ANFIS Risk Assessment")
 st.caption("Hybrid Deep Learning & Fuzzy Logic Monitoring System")
 placeholder = st.empty()
 
